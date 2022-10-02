@@ -1,0 +1,16 @@
+{
+    "models": [
+        {
+            "name": "Oral Cancer",
+            "description": "Oral Cancer based on scan report",
+            "model": "oral_cancer.tflite",
+            "endpoint": "oral_cancer",
+            "args": [
+                {
+                    "name": "image",
+                    "description": "the scan report of the patient"
+                }
+            ]
+        }
+    ]
+}
